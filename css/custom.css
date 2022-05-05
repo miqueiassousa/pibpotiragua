@@ -39,11 +39,13 @@
     justify-content: space-between;
 }
 
+/*
 .navbar .logo a {
     color: #fff;
-    font-size: 35px;
+    font-size: 95px;
     font-weight: 600;
 }
+*/
 
 .navbar .logo a span {
     color: crimson;
@@ -64,25 +66,9 @@
 /* Lista do menu */
 .navbar .menu li a {
     display: block;
-    color: rgb(187, 177, 177);
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 0;
-    transition: color 0.3s ease;
 }
 
 /* Ativar linkd do Menu */
-.navbar .list li a {
-    color: rgb(187, 177, 177);
-}
-
-.navbar .list li a:hover {
-    color: rgb(236, 227, 227);
-}
-
-.navbar .menu li a:hover {
-    color: rgb(236, 227, 227);
-}
 
 .navbar.sticky .menu li a:hover {
     color: var(--secondary);
@@ -96,10 +82,6 @@
 /* menu btn styling */
 nav .menu-btn {
     display: none;
-    color: red;
-    font-size: 23px;
-    cursor: pointer;
-
 }
 
 .scroll-up-btn {
@@ -161,20 +143,25 @@ nav .menu-btn {
 /* Conteudo Header */
 
 .conteudo-header {
-    height: 300px;
     margin-top: 100px;
 }
 
+/*
 .conteudo {
     display: flex;
     justify-content: space-between;
-    color: #fff;
+    
 }
+*/
 
+.conteudo-header .green {
+    color: green;
+}
 .conteudo-1 {
     padding: 50px;
 }
 
+/*
 .conteudo-1 h1 {
     font-size: 50px;
     opacity: 60%;
@@ -182,6 +169,7 @@ nav .menu-btn {
     text-align: left;
     font-weight: 600;
 }
+*/
 
 .eventos {
     color: rgb(177, 166, 166);
@@ -207,8 +195,8 @@ nav .menu-btn {
 }
 
 .sobre-texto img {
-    width: 300px;
-    height: 400px;   
+    width: 650px;
+    height: 650px;   
 }
 
 .sobre-texto .img-igreja {
@@ -265,10 +253,12 @@ p {
     margin: 0;
 }
 
+
 .traco {
-    background-color: green;
-    width: 2px;
+    background-color: var(--secondary);
+    width: 1px;
 }
+
 
 .descricao {
     flex: 2;
@@ -305,30 +295,30 @@ p {
 
 }
 
-/* SERVICOS */
+/* GALERIA */
 
-.servicos-grupo {
+.galeria-grupo {
     padding: 60px 0 60px 0;
 }
 
-#servicos .badge {
+#galeria .badge {
     font-weight: 400;
 }
 
-#servicos .element-item img {
+#galeria .element-item img {
     border-radius: 5px;
     transition: all ease-out 0.2s;
 }
 
-#servicos .element-item img:hover {
+#galeria .element-item img:hover {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
 }
 
-#servicos .button-group {
+#galeria .button-group {
     margin-bottom: 30px;
 }
 
-#servicos .button-group button {
+#galeria .button-group button {
     background: none;
     border: none;
     padding: 0;
@@ -338,17 +328,19 @@ p {
     outline: none;
 }
 
-#servicos .button-group button+button {
+#galeria .button-group button+button {
     margin-left: 30px;
 }
 
-#servicos .button-group button.active {
-    color: green;
+#galeria .button-group button.active {
+    color: var(--primary);
 }
 
-#servicos .text-button {
+#galeria .text-button {
     color: black;
 }
+
+/*--------------------------------------------*/
 
 /* Joves */
 
@@ -373,16 +365,18 @@ p {
 .conteudo-sobre .icone {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .conteudo-sobre li a {
     color: var(--secondary); 
-    transition-duration: 0.4s;   
+    transition-duration: 0.4s; 
+    opacity: 30%;  
 }
 
 .conteudo-sobre li a:hover {
-    color: rgb(253, 29, 2);
+    color: rgb(255, 128, 238);
 }
 /* CONTATO */
 
@@ -405,10 +399,6 @@ p {
 .contato .redes-social li {
     padding: 0 5px 0 0;
     font-size: 20px;
-}
-
-.contato ul a:hover {
-    color: black;
 }
 
 .coluna1,
@@ -444,6 +434,7 @@ p {
 .footer span {
     color: white;
 }
+
 
 .footer span a {
     color: var(--primary);

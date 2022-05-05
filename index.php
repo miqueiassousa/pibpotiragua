@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIB Potiraguá</title>
@@ -17,20 +17,24 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/main.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
     <!-- SCRIPT -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
 </head>
 
 <body>
+
 
     <div class="menu-geral">
         <div id="header">
@@ -40,7 +44,7 @@
                         <div>
                             <ul class="menu">
                                 <li><a class="menu-btn" href="#">Home <span class="sr-only">(current)</span></a></li>
-                                <li><a class="menu-btn" href="#servicos">Programação</a></li>
+                                <li><a class="menu-btn" href="#galeria">Galeria</a></li>
                                 <li><a class="menu-btn" href="#sobre">Sobre</a></li>
                                 <li><a class="menu-btn" href="#contato">Contato</a></li>
 
@@ -51,11 +55,11 @@
                             <ul class="list navbar-nav">
 
                                 <li>
-                                    <a href="https://www.facebook.com/pibjerusalemempotiragua" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/pibjerusalemempotiragua" target="_blank" rel="noopener noreferrer"><i class="redesocial fa-brands fa-facebook"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="https://www.instagram.com/juventudepibj/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-instagram"></i></i></a>
+                                    <a href="https://www.instagram.com/juventudepibj/" target="_blank" rel="noopener noreferrer"> <i class="redesocial fa-brands fa-instagram"></i></i></a>
                                 </li>
 
 
@@ -68,19 +72,19 @@
                 </nav>
 
             </div>
-        </div> <!-- Fim da Heade -->
+        </div> <!-- Fim da Header -->
 
         <section class="conteudo-header">
             <div class="container">
-                <div class="conteudo justify-content-between flex row">
+                <div class="justify-content-between flex row">
                     <div class="conteudo-1 col-lg-8 col-md-12 col-sm-12 mb-0 mt-0 mb-lg-0">
-                        <h1 class="lato">"Ide por todo o mundo, pregai o evangelho a toda criatura."</h1>
+                        <h1 class="titulo1">"Ide por todo o mundo, pregai o evangelho a toda criatura."</h1>
 
-                        <p class="subtitulo">Quarta Feria 19:30 | Domingo 19:30</p>
+                        <p class="green titulo2">Quarta Feira 19:30 | Domingo 19:30</p>
                     </div>
                     <div class="conteudo-2 col-lg-4 col-md-12 col-sm-12 mb-0 mt-0 mb-lg-0">
                         <div class="proximo">
-                            <p>PRÓXIMOS EVENTOS</p>
+                            <p class="titulo2">PRÓXIMOS EVENTOS</p>
                         </div>
                         <div class="eventos">
                             <div class="evento">
@@ -94,9 +98,9 @@
                                 </div>
                                 <div class="traco"></div>
                                 <div class="descricao">
-                                    <p>PIB Potiraguá</p>
+                                    <p>Parque de Exposição</p>
                                     <div class="onde">
-                                        <p>Dia do evangélico - Potiraguá</p>
+                                        <p class="bold">Dia do evangélico - Potiraguá</p>
                                     </div>
                                     <p>Sab 19:00</p>
                                 </div>
@@ -115,7 +119,7 @@
                                 <div class="descricao">
                                     <p>PIB Potiraguá</p>
                                     <div class="onde">
-                                        <p>Posse do Pr. Biafra Santos</p>
+                                        <p class="bold">Posse do Pr. Biafra Santos</p>
                                     </div>
                                     <p>Sab 19:00</p>
                                 </div>
@@ -127,14 +131,14 @@
                                         <p>MAI</p>
                                     </div>
                                     <div class="numero">
-                                        <p>14</p>
+                                        <p>15</p>
                                     </div>
                                 </div>
                                 <div class="traco"></div>
                                 <div class="descricao">
                                     <p>PIB Potiraguá</p>
                                     <div class="onde">
-                                        <p>Culto da Família</p>
+                                        <p class="bold">Culto da Família</p>
                                     </div>
                                     <p>Dom 19:00</p>
                                 </div>
@@ -150,7 +154,7 @@
     <div class="section">
         <div class="container">
             <div id="versiculo">
-                <h1 class="titulo">Querido Deus, Tu és minha proteção, a minha fortaleza. Tu és o meu Deus, eu confio em Ti.</h1>
+                <h1 class="titulo">Querido Deus, Tu és minha proteção, a minha fortaleza. <br />Tu és o meu Deus, eu confio em Ti.</h1>
                 <p class="texto lato opaco">(Salmo 91:2)</p>
             </div>
 
@@ -165,11 +169,11 @@
             <div class="sobre-texto row flex">
                 <div class="img-igreja col-lg-6 col-sm-6 col-md-12">
                     <div>
-                        <img src="assets/images/igrejanoite.png" />
+                        <img src="assets/images/antesedepoisigreja.png" />
                     </div>
                 </div>
                 <div class="conteudo-sobre col-lg-6 col-sm-6 col-md-12">
-                    <h1 class="titulo lato bold">Sobre</h1>
+                    <h1 class="titulo1 center">SOBRE</h1>
                     <p class="lato texto">Juntos formamos uma comunidade evangélica desde os anos 80 como congregação
                         da Primeira Igreja Batista de Itarantim - BA, tendo como pastor Francisco Vasconcelos Xavier
                         que descobriu a existência de duas familiais remanescentes residentes na cidade de Potiraguá,
@@ -192,11 +196,11 @@
 
 
 
-    <!--SERVICOS-->
-    <div id="servicos" class="block">
+    <!--galeria-->
+    <div id="galeria" class="block">
         <div class="container">
 
-            <div class="servicos-grupo">
+            <div class="galeria-grupo">
 
                 <div class="button-group">
                     <button type="button" class="active text-button" data-filter="*" id="btn-all">
@@ -205,171 +209,201 @@
                     <button type="button" class="text-button" data-filter=".igreja">IGREJA</button>
                     <button type="button" class="text-button" data-filter=".juventude">JUVENTUDE</button>
                     <button type="button" class="text-button" data-filter=".mcm">MCM</button>
+                    <button type="button" class="text-button" data-filter=".criancas">Crianças</button>
+                    <button type="button" class="text-button" data-filter=".recente">Recentes</button>
 
                 </div>
 
                 <div class="row grid">
 
                     <div class="col-lg-4 col-6 mb-4 element-item igreja">
-                        <a href="assets/servicos/pastor.jpg" class="popup-link">
-                            <img src="assets/servicos/pastor.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/pastor.svg" class="popup-link">
+                            <img src="assets/galeria/pastorbiafra1.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase mb-1">Pr. Biafra Santos</h5>
-                        <p class="mb-0">
-                            <span class="badge bg-light text-dark">Igreja</span>
-                        </p>
+                        <p class="titulo2 mb-1">Pr. Biafra Santos</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item igreja">
-                        <a href="assets/servicos/prpaulino.jpg" class="popup-link">
-                            <img src="assets/servicos/prpaulino.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/pastorfamilia.svg" class="popup-link">
+                            <img src="assets/galeria/pastorbiafra2.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase mb-1">Pr. Paulino e Edna Peixoto </h5>
-                        <p class="mb-0">
-                            <span class="badge bg-light text-dark">Igreja</span>
-                        </p>
+                        <p class="titulo2 mb-1">Pr. Biafra Santos e Carol</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item igreja">
-                        <a href="assets/servicos/igreja1.jpg" class="popup-link">
-                            <img src="assets/servicos/igreja1.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/pastorfamilia.svg" class="popup-link">
+                            <img src="assets/galeria/pastorbiafra3.png" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase mb-1">Batismo</h5>
-                        <p class="mb-0">
-                            <span class="badge bg-light text-dark">Igreja</span>
-                        </p>
+                        <p class="titulo2 mb-1">Pr. Biafra Santos e Carol</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item igreja">
-                        <a href="assets/servicos/igreja2.jpg" class="popup-link">
-                            <img src="assets/servicos/igreja2.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/prpaulino.jpg" class="popup-link">
+                            <img src="assets/galeria/prpaulino.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">PIB em Potiraguá</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Igreja</span>
-                        </p>
+                        <p class="titulo2 mb-1">Pr. Paulino e Edna Peixoto </p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item igreja">
-                        <a href="assets/servicos/igreja3.jpg" class="popup-link">
-                            <img src="assets/servicos/igreja3.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/igreja1.jpg" class="popup-link">
+                            <img src="assets/galeria/igreja1.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">PIB em Potiraguá</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Igreja</span>
-                        </p>
+                        <p class="titulo2 mb-1">Batismo</p>
+
+                    </div>
+
+                    <div class="col-lg-4 col-6 mb-4 element-item igreja">
+                        <a href="assets/galeria/igreja2.jpg" class="popup-link">
+                            <img src="assets/galeria/igreja2.jpg" class="img-fluid mb-2" />
+                        </a>
+                        <p class="titulo2">PIB em Potiraguá</p>
+
+                    </div>
+
+                    <div class="col-lg-4 col-6 mb-4 element-item igreja">
+                        <a href="assets/galeria/igreja3.jpg" class="popup-link">
+                            <img src="assets/galeria/igreja3.jpg" class="img-fluid mb-2" />
+                        </a>
+                        <p class="titulo2">PIB em Potiraguá</p>
+
+                    </div>
+
+                    <div class="col-lg-4 col-6 mb-4 element-item igreja">
+                        <a href="assets/galeria/igreja5.jpg" class="popup-link">
+                            <img src="assets/galeria/igreja5.jpg" class="img-fluid mb-2" />
+                        </a>
+                        <p class="titulo2">Batismo</p>
+
                     </div>
 
                     <!-- JOVENS -->
 
                     <div class="col-lg-4 col-6 mb-4 element-item juventude">
-                        <a href="assets/servicos/jovens1.jpg" class="popup-link">
-                            <img src="assets/servicos/jovens1.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/jovens1.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens1.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">Juventude</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">jovens</span>
-                        </p>
+                        <p class="titulo2">Juventude</p>
+
                     </div>
 
 
                     <div class="col-lg-4 col-6 mb-4 element-item juventude">
-                        <a href="assets/servicos/jovens3.jpg" class="popup-link">
-                            <img src="assets/servicos/jovens3.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/jovens3.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens3.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">Juventude</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">jovens</span>
-                        </p>
+                        <p class="titulo2">Juventude</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item juventude">
-                        <a href="assets/servicos/jovens4.jpg" class="popup-link">
-                            <img src="assets/servicos/jovens4.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/jovens4.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens4.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">Juventude</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">jovens</span>
-                        </p>
+                        <p class="titulo2">Juventude</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item juventude">
-                        <a href="assets/servicos/jovens5.jpg" class="popup-link">
-                            <img src="assets/servicos/jovens5.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/jovens5.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens5.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">Juventude</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">jovens</span>
-                        </p>
+                        <p class="titulo2">Teatro</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item juventude">
-                        <a href="assets/servicos/jovens6.jpg" class="popup-link">
-                            <img src="assets/servicos/jovens6.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/jovens6.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens6.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">Juventude</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">jovens</span>
-                        </p>
+                        <p class="titulo2">Juventude</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item juventude">
-                        <a href="assets/servicos/jovens7.jpg" class="popup-link">
-                            <img src="assets/servicos/jovens7.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/jovens7.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens7.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">Juventude</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">jovens</span>
-                        </p>
+                        <p class="titulo2">Juventude</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item juventude">
-                        <a href="assets/servicos/jovens8.jpg" class="popup-link">
-                            <img src="assets/servicos/jovens8.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/jovens8.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens8.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">Juventude</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">jovens</span>
-                        </p>
+                        <p class="titulo2">Juventude</p>
+
+                    </div>
+
+                    <div class="col-lg-4 col-6 mb-4 element-item recente juventude">
+                        <a href="assets/galeria/jovens10.jpg" class="popup-link">
+                            <img src="assets/galeria/jovens10.jpg" class="img-fluid mb-2" />
+                        </a>
+                        <p class="titulo2">Juventude</p>
+
                     </div>
 
                     <!-- MCA -->
 
                     <div class="col-lg-4 col-6 mb-4 element-item mcm">
-                        <a href="assets/servicos/mca2.jpg" class="popup-link">
-                            <img src="assets/servicos/mca2.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/mca5.jpg" class="popup-link">
+                            <img src="assets/galeria/mca5.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">MCM</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">mcm</span>
-                        </p>
+                        <p class="titulo2">Mulheres</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item mcm">
-                        <a href="assets/servicos/mca3.jpg" class="popup-link">
-                            <img src="assets/servicos/mca3.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/mca2.jpg" class="popup-link">
+                            <img src="assets/galeria/mca2.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">MCM</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">mcm</span>
-                        </p>
+                        <p class="titulo2">Mulheres</p>
+
                     </div>
 
                     <div class="col-lg-4 col-6 mb-4 element-item mcm">
-                        <a href="assets/servicos/mca4.jpg" class="popup-link">
-                            <img src="assets/servicos/mca4.jpg" class="img-fluid mb-2" />
+                        <a href="assets/galeria/mca3.jpg" class="popup-link">
+                            <img src="assets/galeria/mca3.jpg" class="img-fluid mb-2" />
                         </a>
-                        <h5 class="text-uppercase">MCM</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">msm</span>
-                        </p>
+                        <p class="titulo2">Mulheres</p>
+
+                    </div>
+
+                    <div class="col-lg-4 col-6 mb-4 element-item mcm">
+                        <a href="assets/galeria/mca4.jpg" class="popup-link">
+                            <img src="assets/galeria/mca4.jpg" class="img-fluid mb-2" />
+                        </a>
+                        <p class="titulo2">Mulheres</p>
+
+                    </div>
+
+                    <!-- Crianças -->
+
+                    <div class="col-lg-4 col-6 mb-4 element-item criancas">
+                        <a href="assets/galeria/crianças2.jpg" class="popup-link">
+                            <img src="assets/galeria/crianças2.jpg" class="img-fluid mb-2" />
+                        </a>
+                        <p class="titulo2">Mulheres</p>
+
+                    </div>
+
+                    <div class="col-lg-4 col-6 mb-4 element-item criancas">
+                        <a href="assets/galeria/crianças1.jpg" class="popup-link">
+                            <img src="assets/galeria/crianças1.jpg" class="img-fluid mb-2" />
+                        </a>
+                        <p class="titulo2">Mulheres</p>
+
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <!--//SERVICOS-->
+    <!--//galeria-->
 
     <div id="jovens" class="jovens">
         <div class="container">
@@ -396,10 +430,10 @@
                         Pois tu és a minha esperança, ó Soberano Senhor, em ti está a minha confiança desde a juventude.<br />
                         Salmos 71:5
                     </p>
-                    <li class="icone">
-                        <a href="https://www.instagram.com/juventudepibj/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-instagram"></i></i></a>
+                    <li class="lato icone">
+                        <a href="https://www.instagram.com/juventudepibj/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-instagram"> </i></i>juventudepibj</a>
                     </li>
-                    
+
 
                 </div>
             </div>
@@ -416,19 +450,19 @@
 
                 <div class="coluna2 col-lg-2 col-md-2 col-sm-12 ml-0">
                     <div class="column">
-                        <p class="titulo center">LINKS</p>
+                        <p class="titulo">LINKS</p>
                         <div class="menu-contato">
                             <ul>
-                                <li><a class="menu-btn opaco" href="#">Home <span class="sr-only">(current)</span></a></li>
-                                <li><a class="menu-btn opaco" href="#servicos">Programação</a></li>
-                                <li><a class="menu-btn opaco" href="#sobre">Sobre</a></li>
+                                <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#galeria">Programação</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
                                 <div class="redes-social">
                                     <li>
-                                        <a href="https://www.facebook.com/pibjerusalemempotiragua" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="https://www.facebook.com/pibjerusalemempotiragua" target="_blank" rel="noopener noreferrer"><i class="redesocial fa-brands fa-facebook"></i></a>
                                     </li>
 
                                     <li>
-                                        <a href="https://www.instagram.com/juventudepibj/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-instagram"></i></i></a>
+                                        <a href="https://www.instagram.com/juventudepibj/" target="_blank" rel="noopener noreferrer"> <i class="redesocial fa-brands fa-instagram"></i></i></a>
                                     </li>
                                 </div>
                             </ul>
@@ -481,15 +515,15 @@
 
         </div>
     </div>
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- Jquery ok -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
+    <script src="js/owl.carousel.min.js"></script> <!-- Depoimentos -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Galeria de fotos ok-->
+    <script src="js/magnify/jquery.magnific-popup.min.js"></script> <!-- Pasagem das fotos ok-->
+    <script src="js/main.js"></script> <!-- Configurações padrões do java script -->
 </body>
 
 </html>
-
-<!--JS-->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- Jquery -->
-<script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
-<script src="js/owl.carousel.min.js"></script> <!-- Depoimentos -->
-<script src="js/isotope.pkgd.min.js"></script> <!-- Galeria de fotos -->
-<script src="js/magnify/jquery.magnific-popup.min.js"></script> <!-- Pasagem das fotos -->
-<script src="js/main.js"></script> <!-- Configurações padrões do java script -->
