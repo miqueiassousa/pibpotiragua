@@ -80,8 +80,13 @@
 
 
 /* menu btn styling */
-nav .menu-btn {
-    display: none;
+nav .menu-btn{
+	display: none;
+}
+
+.menu-icone {
+    color: #fff;
+    font-size: 30px;
 }
 
 .scroll-up-btn {
