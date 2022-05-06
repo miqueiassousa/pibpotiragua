@@ -54,6 +54,13 @@ a:hover {
     color: var(--secondary);
 }
 
+.subtitulo {
+    color: var(--descricao);
+    font-weight: 300;
+    text-transform: none;
+    
+}
+
 .opaco {
     color: rgb(122, 119, 115);
 }
@@ -75,3 +82,15 @@ a:hover {
     text-align: center;
     justify-content: center;
 }
+
+.circle {
+    display: flex;
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+  }
+  

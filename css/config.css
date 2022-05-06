@@ -1,10 +1,13 @@
 :root {
 
 	--primary: orange;
-	--secondary: rgba(192, 181, 181, 0.733);
+	--secondary: rgba(219, 202, 202, 0.781);
 
-	--branco: rgb(185, 173, 173);
+	--branco: rgba(207, 199, 199, 0.863);
 
 	--verde: green;
 	
+	--opaca: rgba(248, 240, 240, 0.596);
+
+	--descricao: rgb(197, 192, 192);
 }

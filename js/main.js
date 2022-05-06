@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
   });
   */
  
-  // slide-up script
+  /* slide-up script
   $('.scroll-up-btn').click(function(){
     $('html').animate({scrollTop: 0});
     // removing smooth scroll on slide-up button click
@@ -30,9 +30,10 @@ jQuery(document).ready(function ($) {
   $('.navbar .menu li a').click(function(){
     // applying again smooth scroll on menu items click
     $('html').css("scrollBehavior", "smooth");
-  });
+  }); 
+  */
 
-  // toggle menu/navbar script
+  // MENU MOBILE
   $('nav .menu-btn').click(function(){
     $('nav .menu').toggleClass("active");
     $('nav .menu-btn i').toggleClass("active");

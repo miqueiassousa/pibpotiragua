@@ -39,14 +39,6 @@
     justify-content: space-between;
 }
 
-/*
-.navbar .logo a {
-    color: #fff;
-    font-size: 95px;
-    font-weight: 600;
-}
-*/
-
 .navbar .logo a span {
     color: crimson;
     transition: all 0.3s ease;
@@ -123,6 +115,21 @@ nav .menu-btn{
 
 /* HEADER */
 
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+  }
+
+#header.active {
+    position:fixed;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    z-index: 9999;   
+    height: 60px;
+    margin-top: -110px;    
+  }
+
 #header a:hover {
     text-decoration: none;
 }
@@ -130,12 +137,6 @@ nav .menu-btn{
 #header a {
     text-decoration: none;
     padding: 10px;
-}
-
-#header {
-    width: 100%;
-    background-color: transparent;
-    transition: background ease-out 0.2s;
 }
 
 #header .list {
@@ -289,21 +290,18 @@ p {
 
 #versiculo .titulo {
     color: black;
-
     font-weight: 600;
     padding-top: 50px;
 }
 
 #versiculo .texto {
     color: black;
-
-
 }
 
 /* GALERIA */
 
 .galeria-grupo {
-    padding: 60px 0 60px 0;
+    padding: 0px 0 60px 0;
 }
 
 #galeria .badge {
@@ -428,6 +426,50 @@ p {
     padding: 0px;
 }
 
+/* NOSSOS SERVICOS */
+
+#servicos {
+    margin: 30px;
+}
+#servicos .imagem  {
+    margin-bottom: 20px;
+}
+
+#servicos a.destaque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--opaca);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+  }
+  
+  #servicos a.destaque:hover {
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05);
+  }
+  
+  /*
+  #servicos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+
+  #servicos a.destaque .img-container img {
+    max-height: 160px;
+  }
+    */
+
+  #servicos p {
+      letter-spacing: 2px;
+  }
 
 /* footer section styling */
 .footer {
