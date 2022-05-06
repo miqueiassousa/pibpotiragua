@@ -37,6 +37,10 @@
 
 @media (max-width: 574.00px) {
 
+    footer span{
+        font-size: 10px;
+    }
+
     .redesocial-menu {
         display: none;
     }
