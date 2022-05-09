@@ -69,8 +69,8 @@
         display: none;
     }
 
-    footer span{
-        font-size: 10px;
+    .rodape .texto, a {
+        font-size: 12px;
     }
 
     .redesocial-menu {
