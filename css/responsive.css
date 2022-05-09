@@ -37,6 +37,38 @@
 
 @media (max-width: 574.00px) {
 
+    .menu-geral {
+    
+        background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0) 99%), url(../assets/images/igreja1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: repeat;
+        height: auto;
+    }
+    
+    #sobre {
+        background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0) 99%), url(../assets/images/papel-madeira.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: repeat;
+        
+    }
+
+    .jovens {
+        background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0) 99%), url(../assets/images/papelamassado.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: repeat;
+        
+    }
+    
+    #header.active {
+        display: none;
+    }
+
     footer span{
         font-size: 10px;
     }

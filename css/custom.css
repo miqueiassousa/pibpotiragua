@@ -4,6 +4,7 @@
 /* NAVBAR CONFIG */
 
 .menu-geral {
+    
     background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0) 99%), url(../assets/images/igreja1.jpg);
     background-position: center;
     background-size: cover;
@@ -123,7 +124,7 @@ nav .menu-btn{
 
 #header.active {
     position:fixed;
-    background: rgb(0, 0, 0);
+    background: rgb(170, 52, 52);
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
     z-index: 9999;   
     height: 60px;
