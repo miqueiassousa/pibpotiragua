@@ -55,7 +55,7 @@
                         </div>
                         <div class="eventos">
                             
-                        <?php foreach($lista as $evento): ?>
+                       
 
                             <div class="evento">
                                 <div class="data">
@@ -63,20 +63,20 @@
                                         <p>MAI</p>
                                     </div>
                                     <div class="numero">
-                                        <p>05</p>
+                                        <p>14</p>
                                     </div>
                                 </div>
                                 <div class="traco"></div>
                                 <div class="descricao">
-                                    <p><?= $evento->getNome();?></p>
+                                    <p>PIB Potiraguá</p>
                                     <div class="onde">
-                                        <p class="bold"><?= $evento->getLocal();?></p>
+                                        <p class="bold">Posso do Pastor Biafra</p>
                                     </div>
                                     <p>Sab 19:00</p>
                                 </div>
                             </div>
 
-                            <?php endforeach; ?>
+                           
                 
                     </div>
 

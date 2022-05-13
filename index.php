@@ -37,6 +37,7 @@
 
 <?php
 
+/*
 require 'config.php';
 require 'dao/EventoDaoMySql.php';
 
@@ -44,6 +45,7 @@ ini_set('default_charset', 'utf-8');
 
 $eventoDao = new EventoDaoMysql($pdo);
 $lista = $eventoDao->findAll();
+*/
 
 ?>
 
