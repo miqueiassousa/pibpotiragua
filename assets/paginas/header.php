@@ -66,9 +66,9 @@
                                 </div>
                                 <div class="traco"></div>
                                 <div class="descricao">
-                                    <p>PIB Potiragua<?= /* $evento->getNome(); */?></p>
+                                    <p>PIB Potiragua</p>
                                     <div class="onde">
-                                        <p class="bold">Posso do Pr. Biafra<?= /* $evento->getLocal(); */ ?></p>
+                                        <p class="bold">Posso do Pr. Biafra</p>
                                     </div>
                                     <p>Sab 19:00</p>
                                 </div>
