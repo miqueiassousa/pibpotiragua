@@ -53,7 +53,7 @@
                     </div>
                     <div class="eventos">
 
-                        <?php /* foreach ($lista as $evento) : */ ?>
+                        
 
                             <div class="evento">
                                 <div class="data">
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
 
-                        <?php /* endforeach; 8/ ?>
+                    
 
                     </div>
 
