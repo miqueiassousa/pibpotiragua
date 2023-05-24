@@ -47,7 +47,7 @@
 
                     <p class="green titulo2">Quarta Feira 19:30 | Domingo 19:30</p>
                 </div>
-                <div class="conteudo-2 col-lg-4 col-md-12 col-sm-12 mb-0 mt-0 mb-lg-0">
+                <!-- <div class="conteudo-2 col-lg-4 col-md-12 col-sm-12 mb-0 mt-0 mb-lg-0">
                     <div class="proximo">
                         <p class="titulo2">PRÓXIMOS EVENTOS</p>
                     </div>
@@ -78,7 +78,7 @@
 
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
